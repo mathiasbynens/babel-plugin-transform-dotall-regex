@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-dotall-regex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Compile regular expressions using the `s` (`dotAll`) flag to ES5.",
   "homepage": "https://github.com/mathiasbynens/babel-plugin-transform-dotall-regex",
   "main": "dist/index.js",

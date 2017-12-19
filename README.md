@@ -2,8 +2,6 @@
 
 Compile regular expressions using [the `s` (`dotAll`) flag](https://github.com/mathiasbynens/es-regexp-dotall-flag) to ES5 that works in today’s environments.
 
-**Note:** the `s` (`dotAll`) flag is non-standard and may or may not reflect what eventually gets specified.
-
 For example, `/./s` is transpiled into `/[\0-\uFFFF]/`, and `/./su` is transpiled into `/[\0-\u{10FFFF}]/u`.
 
 [Here’s an online demo.](https://mothereff.in/regexpu#input=const+regex+%3D+/foo.bar/s%3B%0Aconsole.log%28%0A++regex.test%28%27foo%5Cnbar%27%29%0A%29%3B%0A//+%E2%86%92+true&dotAllFlag=1)
